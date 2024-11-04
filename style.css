@@ -1,16 +1,57 @@
-#component-4 {
-    background: #092a8f !important;
-}
 
-.message.bot {
-    background: #108bad !important;
-    font-family: "Lucida Handwriting" !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-.message.user {
-    background: #ad0ea8 !important;
-}
 
 #CHATBOT {
-    background: #092a8f !important;
+    background: #2C2C2C !important; 
+    color: #ffffff !important;
+    padding: 60px;               
+    border-radius: 12px;
+    font-size: 18px;            
+    font-family: "Inter", sans-serif !important;
+}
+
+
+#component-4 {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 16px;         
+    padding: 16px;             
+    font-size: 18px;          
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+#component-4 textarea, #component-4 input {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 24px;
+    padding: 14px;               
+    font-size: 18px;             
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+}
+
+
+.message.bot {
+    background: #f5f5f5 !important;
+    font-family: "Inter", sans-serif !important;
+    color: #000000 !important;   
+    border-radius: 10px;
+    padding: 16px;              
+    font-size: 18px;             
+    margin-bottom: 12px;
+}
+
+
+.message.user {
+    background: #e8e8ffcb !important;
+    font-family: "Inter", sans-serif !important;
+    color: #000000 !important;   
+    border-radius: 10px;
+    padding: 16px;              
+    font-size: 18px;             
+    margin-bottom: 12px;
 }

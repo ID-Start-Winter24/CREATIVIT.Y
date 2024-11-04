@@ -66,6 +66,5 @@ def main():
 
     chatinterface.launch(inbrowser=True)
 
-
 if __name__ == "__main__":
     main()
